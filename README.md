@@ -1,10 +1,10 @@
-##################################### NOTES BY RoboMex #########################################
+# Notes by RoboMex
 
 ________________________________________________________________________________________________
 						Git
 ________________________________________________________________________________________________
 
-- to refresh git after git ignore files
+- To refresh git after git ignore files
 	git rm -r --cached .
 	git rm --cached --ignore-unmatch `git ls-files -i --exclude-standard`
 	git add .
@@ -32,7 +32,7 @@ ________________________________________________________________________________
 
 - to clone repo with no username and password
 	git remote -v
-	# if https
+	Note: if https
 	git remote set-url origin git@github.com:<username>/<repo_name>.git
 
 
